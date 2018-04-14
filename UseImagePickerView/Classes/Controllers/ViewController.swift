@@ -40,7 +40,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         dismiss(animated: true, completion: nil)
         let editImage = info[UIImagePickerControllerEditedImage] as? UIImage
         let originImage = info[UIImagePickerControllerOriginalImage] as? UIImage
-        imageView.image = editImage != nil ? editImage : originImage
+        imageView.image = editImage ?? originImage
     }
     
 }
