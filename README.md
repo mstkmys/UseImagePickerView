@@ -8,6 +8,8 @@
 )](http://mit-license.org)
 [![Twitter](https://img.shields.io/badge/twitter-@mstkmys-blue.svg?style=flat)](https://twitter.com/mstkmys)
 
+![picker](https://user-images.githubusercontent.com/12792235/38770368-048a304c-404d-11e8-898a-31f8dea7fd0d.gif)
+
 ## Author
 **Masataka Miyoshi**
 
