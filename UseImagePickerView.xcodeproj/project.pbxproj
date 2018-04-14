@@ -54,14 +54,46 @@
 		68D271602081CF0B0039C620 /* UseImagePickerView */ = {
 			isa = PBXGroup;
 			children = (
-				68D271612081CF0B0039C620 /* AppDelegate.swift */,
-				68D271632081CF0B0039C620 /* ViewController.swift */,
-				68D271652081CF0B0039C620 /* Main.storyboard */,
-				68D271682081CF0C0039C620 /* Assets.xcassets */,
-				68D2716A2081CF0C0039C620 /* LaunchScreen.storyboard */,
+				68D271742081CF370039C620 /* Resources */,
+				68D271732081CF2F0039C620 /* Classes */,
 				68D2716D2081CF0C0039C620 /* Info.plist */,
 			);
 			path = UseImagePickerView;
+			sourceTree = "<group>";
+		};
+		68D271732081CF2F0039C620 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68D271612081CF0B0039C620 /* AppDelegate.swift */,
+				68D271762081CF550039C620 /* Views */,
+				68D271752081CF4B0039C620 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		68D271742081CF370039C620 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68D271682081CF0C0039C620 /* Assets.xcassets */,
+				68D2716A2081CF0C0039C620 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68D271752081CF4B0039C620 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68D271632081CF0B0039C620 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		68D271762081CF550039C620 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68D271652081CF0B0039C620 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -283,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = UseImagePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = UseImagePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
